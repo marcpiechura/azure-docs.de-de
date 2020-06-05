@@ -34,6 +34,7 @@ Von Azure Static Web Apps wird eine API über Azure Functions bereitgestellt. Di
 - Das API-Routenpräfix muss _api_ lauten.
 - Trigger und Bindungen sind auf [HTTP](../azure-functions/functions-bindings-http-webhook.md) beschränkt.
   - Alle anderen [Trigger und Bindungen von Azure Functions](../azure-functions/functions-triggers-bindings.md#supported-bindings) sind eingeschränkt (mit Ausnahme von Ausgabebindungen).
+- Die API Functions-App muss in JavaScript geschrieben sein.
 - Protokolle sind nur verfügbar, wenn Sie Ihrer Functions-App [Application Insights](../azure-functions/functions-monitoring.md) hinzufügen.
 
 ## <a name="next-steps"></a>Nächste Schritte
